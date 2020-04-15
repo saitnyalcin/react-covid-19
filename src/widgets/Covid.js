@@ -31,7 +31,6 @@ const Covid = () => {
 
   return (
     <div>
-      {/* <div>{JSON.stringify(provinces)}</div> */}
       <div className="lastChecked">
         {Object.keys(provinces)
           .slice(0, 1)
