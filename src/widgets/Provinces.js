@@ -4,7 +4,7 @@ const Provinces = ({ province, confirmed, deaths, recovered }) => {
   return (
     <div className="flex-container">
       <div>
-        <h1>{province} </h1>
+        <h2>{province} </h2>
         <h2>
           {' '}
           <span role="img" aria-label="confirmed">
