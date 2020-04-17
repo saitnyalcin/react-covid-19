@@ -30,7 +30,7 @@ const Covid = () => {
 
   useEffect(() => {
     fetchData();
-  });
+  }, []);
 
   return (
     <>
