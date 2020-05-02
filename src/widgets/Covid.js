@@ -5,6 +5,7 @@ const Covid = () => {
   const [hasError, setErrors] = useState(false);
   const [provinces, setProvinces] = useState({});
 
+  // set the date format based on the requirement
   const dateformat = require('dateformat');
 
   async function fetchData() {
@@ -67,7 +68,7 @@ const Covid = () => {
         </div>
       ) : (
         <span>
-          <h1>Error is occured while fetching the data..</h1>
+          <h1>Failed to fetching the data..</h1>
         </span>
       )}
     </>
